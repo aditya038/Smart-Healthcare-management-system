@@ -1,0 +1,36 @@
+from django.db import models
+
+# Create your models here.
+class Symptoms(models.Model):
+    name_of_patient = models.CharField(max_length=30)
+
+    age = models.IntegerField()
+    blood_group = models.CharField(max_length=30)
+
+    itching = models.BooleanField(default=False)
+    Stomach_Pain = models.BooleanField(default=False)
+    Continuous_Sneezing = models.BooleanField(default=False)
+    Diarrhoea = models.BooleanField(default=False)
+    Cough = models.BooleanField(default=False)
+    Joint_Pain = models.BooleanField(default=False)
+    Acidity = models.BooleanField(default=False)
+    Vomiting = models.BooleanField(default=False)
+    Fatigue = models.BooleanField(default=False)
+    Weight_Loss = models.BooleanField(default=False)
+    Anxiety = models.BooleanField(default=False)
+    High_Fever = models.BooleanField(default=False)
+    Dehydration = models.BooleanField(default=False)
+    Indigestion = models.BooleanField(default=False)
+    Headache = models.BooleanField(default=False)
+    Nausea = models.BooleanField(default=False)
+    Back_pain = models.BooleanField(default=False)
+    Constipation = models.BooleanField(default=False)
+    Chest_Pain = models.BooleanField(default=False)
+    FastHeartRate = models.BooleanField(default=False)
+    Dizziness = models.BooleanField(default=False)
+    Cramps = models.BooleanField(default=False)
+    Obesity = models.BooleanField(default=False)
+    KneePain = models.BooleanField(default=False)
+    MuscleWeakness = models.BooleanField(default=False)
+    Coma = models.BooleanField(default=False)
+    LackofConcentration = models.BooleanField(default=False)
